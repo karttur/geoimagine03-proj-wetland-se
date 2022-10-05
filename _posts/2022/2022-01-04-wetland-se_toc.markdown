@@ -24,7 +24,7 @@ Sweden has large areas of both intact and drained wetlands. In this project you 
 
 ## [Datasets](../wetland-se_datasets)
 
-For the project of mapping Swedish wetlands and their climate impact, the following data sets are required:
+For the project of mapping Swedish wetlands and their climate impact, the following data sets are used as input:
 
 - Landcover
 - Soil moisture
