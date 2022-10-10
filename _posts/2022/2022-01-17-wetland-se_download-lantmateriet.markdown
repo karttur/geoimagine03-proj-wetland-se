@@ -16,7 +16,7 @@ share: true
 
 ## Introduction
 
-For navigation and adding place names a set of base maps is a starting point. This post is a tutorial for accessing, downloading and organising data from Lantmäteriet (the Swedish mapping, cadastral and land registration authority).
+For navigation and adding place names a set of base maps is a starting point. This post is a tutorial for accessing, downloading and organising data from Lantmäteriet (the Swedish mapping, cadastral and land registration authority). [Lantmäteriet's goedataportal](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=931BBE27DE4DF2E5E47B8536A683D3F6#/search?resultType=swe-details&_schema=iso19139*&type=dataset%20or%20series&from=1&to=20) contain the available datasets, including datasets from other government institutions.
 
 ## Prerequisites
 

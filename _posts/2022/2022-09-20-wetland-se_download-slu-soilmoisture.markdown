@@ -1,24 +1,28 @@
 ---
 layout: post
-title: SLU Ditches
+title: SLU soil moisture
 categories: wetland-se
-excerpt: "Access and download data over ditches created by Sveriges Lantbruksuniversitet (SLU) and available from Skogsstyrelsen."
+excerpt: "Access and download data over soil moisture created by Sveriges Lantbruksuniversitet (SLU) and available from Skogsstyrelsen."
 tags:
   - Sweden
   - SLU
   - skogsstyrelsen
-  - ditches
+  - soil moisture
   - download
 image: ts-mdsl-rntwi_RNTWI_id_2001-2016_AS
-date: '2022-01-22'
-modified: '2022-01-22'
+date: '2022-09-20'
+modified: '2022-09-20'
 comments: true
 share: true
 ---
 
 ## Introduction
 
-Skogsstyrelsen (The Swedish Forest Agency) hosts a set of spatial datasets, both [open source data](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/oppna-data/) and data that requires registering for accessing. The former includes a [national ditch layer at 0.5 and 1 m spatial resolution developed by Sveriges Lantbruksuniversitet (Swedish University of Agricultural Sciences)](https://www.slu.se/institutioner/skogens-ekologi-skotsel/forskning2/dikeskartor/om-dikeskartorna/). This dataset is a key layer for modelling Swedish wetlands and this post is an instruction for how to retrieve it and get it into Karttur´s GeoImagine Framework.
+The Swedish Agricultural University (SLU) has both produced high resolution maps over Sweden, and have an [access point](https://www.slu.se/site/bibliotek/soka-och-lana/soka/digitala-kartor/) for Swedish map data from other government institutions. The maps produced by SLU include [soil moisture datasets](https://www.slu.se/institutioner/skogens-ekologi-skotsel/forskning2/markfuktighetskartor/om-slu-markfuktighetskarta/) created by  by combining digital terrain models, climate and soil maps with Artificial Intelligence.
+
+The soil moisture datasets are available from Skogsstyrelsen (The Swedish Forest Agency). Skogsstyrelsen hosts both[open source data](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/oppna-data/) and data that requires registering for accessing. The former includes the [soil moisture datasets](https://www.slu.se/institutioner/skogens-ekologi-skotsel/forskning2/markfuktighetskartor/om-slu-markfuktighetskarta/). The same datasets are also available from [Metria](https://metria.se/kunskap/markfuktighetskarta-hela-sverige/).
+
+Soil moisture is a key layer for modelling Swedish wetlands and this post is an instruction for how to retrieve it and get it into Karttur´s GeoImagine Framework.
 
 ## Prerequisites
 
@@ -110,3 +114,7 @@ Json command file: [0180_Tileprojsysregion_slu-diken.json](https://karttur.githu
 ## tile 1 m ditch to sweref ##
 ### REMOVE TO RUN ### 0180_Tileprojsysregion_slu-diken.json
 ```
+
+## References
+
+Ågren, A. M., J. Larson, S. S. Paul, H. Laudon, and W. Lidberg (2021) Use of multiple LIDAR-derived digital terrain indices and machine learning for high-resolution national-scale soil moisture mapping of the Swedish forest landscape. Geoderma, 404, 115280, https://doi.org/10.1016/j.geoderma.2021.115280
