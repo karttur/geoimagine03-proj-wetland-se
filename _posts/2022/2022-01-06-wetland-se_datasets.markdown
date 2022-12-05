@@ -36,7 +36,7 @@ Landcover data for Sweden "Nationella Marktäckesdata" (NMD) is freely available
 
 ### Soil moisture
 
-The landcover map (above) also include a soil moisture index product ([Markfuktighetsindex](https://gpt.vic-metria.nu/data/land/NMD)) at 10 m spatial resolution. As this project aims at mapping wetlands and their GHG balance at 10 m spatial resolution that map will suffice. However, recently a more detailed soil moisture product at 2 m spatial resolution] was published by [Ågren et al., 2021](https://doi.org/10.1016/j.geoderma.2021.115280). The more detailed map is available from [Sveriges Lantbruksuniversitet (SLU)](https://www.slu.se), [digital maps and geodata](https://www.slu.se/site/bibliotek/anvanda-biblioteket/soka/digitala-kartor/), but only for approved users.
+The landcover map (above) also include a soil moisture index product ([Markfuktighetsindex](https://gpt.vic-metria.nu/data/land/NMD)) at 10 m spatial resolution. As this project aims at mapping wetlands and their GHG balance at 10 m spatial resolution that map will suffice. However, recently a more detailed soil moisture product at 2 m spatial resolution] was published by [Ågren et al., 2021](https://doi.org/10.1016/j.geoderma.2021.115280). The more detailed map is available from [Sveriges Lantbruksuniversitet (SLU)](https://www.slu.se), [digital maps and geodata](https://www.slu.se/site/bibliotek/soka-och-lana/soka/digitala-kartor/), where you can order it. But the same data is also available for [FTP from skogsstyrelsen]() as explained in the post on [Access soil moisture](../wetland-se_download-soil-moisture/).
 
 ### Wetlands
 
@@ -48,7 +48,7 @@ The national survey of Sweden (METRIA) has produced a national 1 m digital Eleva
 
 ### Ditches
 
-Ditches derived from a re-analysis of the LiDAR data used for producing the Swedish DEM has been published in late 2021. The ditches are avalable as 2.5 km x 2.5 grid maps at 1 km spatial resolution from [skogsstyrelsen](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/ftp/). The actual data is available using ftp [ftps://ftpsks.skogsstyrelsen.se](ftps://ftpsks.skogsstyrelsen.se).
+Ditches derived from a re-analysis of the LiDAR data used for producing the Swedish DEM has been published in 2021 ([Siddhartho et al., 2021](https://meetingorganizer.copernicus.org/EGU21/EGU21-2226.html)). The ditches are available as 2.5 km x 2.5 grid maps at both 0.5 and 1 m spatial resolution from [skogsstyrelsen](https://www.skogsstyrelsen.se/sjalvservice/karttjanster/geodatatjanster/ftp/). The actual data is available using ftp [ftps://ftpsks.skogsstyrelsen.se](ftps://ftpsks.skogsstyrelsen.se).
 
 ### Soils
 

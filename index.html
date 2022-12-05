@@ -1,24 +1,19 @@
 ---
 layout: page
 title: Swedish wetlands
-excerpt: "Overview of Karttur´s projects on GitHub"
+excerpt: "Mapping and modelling the GHG banlance of Swedish wetlands"
 image: rainfall-delta_3B43_trmm_2001-2016_mk-z-ts-model
 search_omit: true
 ---
 
 <h1>Introduction</h1>
 
-Sweden has large areas of both intact and drained wetlands. In this project you will access different spatial datasets and combine them for creating wetland maps that relate to the Greenhouse Gas (GHG) balance of Swedish wetlands.
+Sweden has large areas of both intact and drained wetlands. This project is a manual for creating a database of Swedish wetlands and then analyse and model these wetlands using Karttur's Geoimagine Framework. The aim of the project is to improve the understanding of the Greenhouse Gas (GHG) balance of Swedish wetlands.
+
+This section ("blog") contains the more verbose manuals, the json command files to run the project are under the parallell section <a href="https://karttur.github.io/geoimagine03-proj-wetland-se-json/">geoimagine03-proj-wetland-se-json</a>.
 
 <ul class="post-list">
 {% for post in site.categories.wetland-se reversed %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h1>json command files<h1>
-<ul class="post-list">
-{% for post in site.categories.overview limit:5 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>

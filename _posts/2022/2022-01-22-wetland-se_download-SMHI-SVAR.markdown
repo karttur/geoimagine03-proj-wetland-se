@@ -9,8 +9,8 @@ tags:
   - SVAR
   - download
 image: ts-mdsl-rntwi_RNTWI_id_2001-2016_AS
-date: '2022-01-19'
-modified: '2022-01-19'
+date: '2022-01-22'
+modified: '2022-11-10'
 comments: true
 share: true
 ---
@@ -57,11 +57,11 @@ If you copied and pasted the url's to a text file as described in the previous s
 
 Framework process: [DownloadAncillary](https://karttur.github.io/geoimagine03-docs-procpack/subprocess/subprocid-DownloadAncillary/)
 
-Json command file: [0115-download-SMHI-SVAR.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/projects/projects-0115-download-SMHI-SVAR.json/)
+Json command file: [0115-download-SMHI-SVAR.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/sewetland/projects-0115-download-SMHI-SVAR/)
 
 ```
 ## Download SMHI SVAR data ##
-### REMOVE TO RUN ### 0115-download-SMHI-SVAR.json
+0115-download-SMHI-SVAR.json
 ```
 
 ### UnZip SVAR
@@ -70,20 +70,20 @@ As the layers are downloaded as <span class='file'>.zip</span> files, you can us
 
 Framework process: [UnZipRawData](https://karttur.github.io/geoimagine03-docs-procpack/subprocess/subprocid-UnZipRawData/)
 
-Json command file: [0120_UnZipRawData_Metria-VMI.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/projects/projects-0120_UnZipRawData_Metria-VMI.json/)
+Json command file: [0120_UnZipRawData_SMHI-SVAR.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/sewetland/projects-0120_UnZipRawData_SMHI-SVAR/)
 
 ```
-### Unzip Metria VMI datasets ###
-### REMOVE TO RUN ### 0120_UnZipRawData_Metria-VMI.json
+## UnZip SMHI SVAR data ##
+0120_UnZipRawData_SMHI-SVAR.json
 ```
 
 ### Organize SVAR
 
 Framework process: [OrganizeProjSysData](https://karttur.github.io/geoimagine03-docs-procpack/subprocess/subprocid-OrganizeProjSysData/)
 
-Json command file: [0160-organize-Metria-NMD.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/projects/projects-0160-organize-Metria-NMD.json/)
+Json command file: [0160-organize-SMHI-SVAR.json](https://karttur.github.io/geoimagine03-proj-wetland-se-json/sewetland/projects-0160-organize-SMHI-SVAR/)
 
 ```
 ## Organize SMHI SVAR data ##
-### REMOVE TO RUN ### 0160-organize-SMHI-SVAR.json
+0160-organize-SMHI-SVAR.json
 ```
